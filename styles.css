@@ -1,0 +1,186 @@
+header {
+    text-align: center;
+    color: rgba(220, 220, 220, 0.753);
+}
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.navigation {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.navigation  li {
+    display: inline;
+}
+.navigation li.location a {
+    text-decoration: none;
+    color: rgba(220, 220, 220, 0.753);
+}
+
+.navigation li.location+li.location::before {
+    content: "/";
+}
+.navigation li.location a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    color:rgb(0, 5, 139);
+}
+
+body {
+    background-color: rgb(100, 148, 237);
+
+}
+/* COLOUR SECTION */
+#colors {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#colors h2, h3 {
+    color: rgb(19, 25, 29);
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.Lightgrey, .Lightslategrey, .Khaki, .Goldenrod, .Darkseagreen, .Lightsteelblue {
+    display: inline-block;
+    border-radius: 90%;
+    border: 5px solid rgb(19, 25, 29);
+    padding: 25px;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#colors p {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+.Lightgrey {
+    background-color:rgb(211, 211, 211);
+}
+.Lightslategrey {
+    background-color: rgb(119, 136, 153);
+}
+.Khaki {
+    background-color: rgb(240, 230, 140);
+}
+.Goldenrod {
+    background-color: rgb(218, 165, 32);
+}
+.Darkseagreen {
+    background-color: rgb(143, 188, 14;3)
+}
+.Lightsteelblue {
+    background-color: rgb(176, 196, 222);
+}
+/* FONTS SECTION */
+@font-face {
+    font-family: "Zeyada";
+    src: url('./fonts/Zeyada-Regular.ttf');
+}
+@font-face {
+    font-family:'FrederickatheGreat';
+    src: url('./fonts/FrederickatheGreat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jaldi';
+    src: url('./fonts/Jaldi-Regular.ttf');
+    src: url('./fonts/Jaldi-Bold.ttf');
+}
+#fonts  table {
+    margin-top: 0px;
+}
+#fonts h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#fonts {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+table caption {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.table{
+    width: 60%;
+    line-height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.zeyada {
+    font-family: "Zeyada", sans-serif;
+    font-size: 25px;
+}
+.FrederickatheGreat {
+    font-family: "FrederickatheGreat", sans-serif;
+    font-size: 25px;
+}
+.jaldi {
+    font-family: "Jaldi", sans-serif;
+    font-size: 25px;
+}
+
+.table td, .table th {
+    padding: 5px;
+    border: 3px solid black;
+    text-align: center;
+
+}
+.underline {
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+}
+/* SEMANTICS SECTION */
+ .semantics h2{
+    font-size: 25px;
+ }
+ #semantics {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+ }
+ #semantics img {
+    width: 60%;
+    margin-bottom: 40px;
+    opacity: 0.5;
+ }
+ #semantics figure {
+    font-family: 'zeyada', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+ }
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: antiquewhite;
+    opacity: 0.8;
+}
